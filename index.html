@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    
+    <h1>Simple Discount Calculator</h1>
+
+    <div class="main">
+        <p class="pMain">Insert the price of the product:</p>
+        <input type="number" id="price"> $
+        <p class="pMain">Insert the percentage of the Discount:</p>
+        <input class="inputP" type="number" id="percentage"> %
+        <button onclick="calculatePrice()">Calculate</button>
+    </div>
+
+    <div class="result">
+        <p class="pResult" id="resultOriginal">Original price: </p>
+        <p class="pResult" id="resultSaving">You are saving:</p>
+        <p class="pResult" id="resultFinal">Final price: </p>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
